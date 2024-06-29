@@ -1,9 +1,451 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "id": "7c7d",
+      "userId": "iamsxx93",
+      "userPw": "k0401m",
+      "userEmail": "iamsxx93@gmail.com",
+      "isLogin": false
+    },
+    {
+      "id": "e0d5",
+      "userId": "kimmi401",
+      "userPw": "glendowi",
+      "userEmail": "kimmi401@hanmail.net",
+      "isLogin": true
+    },
+    {
+      "id": "bfba",
+      "userId": "test",
+      "userPw": "0711",
+      "userEmail": "test@gmail.com",
+      "isLogin": false
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "review": [
+    {
+      "id": "68bf",
+      "movieId": "238",
+      "timeNow": "2024. 6. 21.",
+      "nickName": "대부 리뷰입니다",
+      "score": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "reviewTxt": "대부 리뷰입니다"
+    },
+    {
+      "id": "0a04",
+      "movieId": "238",
+      "timeNow": "2024. 6. 21.",
+      "nickName": "대부2",
+      "score": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "reviewTxt": "대부2"
+    },
+    {
+      "id": "4fa1",
+      "movieId": "424",
+      "timeNow": "2024. 6. 21.",
+      "nickName": "쉰들러",
+      "score": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "reviewTxt": "쉰들러"
+    },
+    {
+      "id": "22d5",
+      "movieId": "240",
+      "timeNow": "2024. 6. 22.",
+      "nickName": "대부2관람객",
+      "score": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "reviewTxt": "재미있어요\n"
+    },
+    {
+      "id": "8c3e",
+      "movieId": "240",
+      "timeNow": "2024. 6. 22.",
+      "nickName": "대부2관람객2",
+      "score": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "reviewTxt": "리뷰 2번째입니다"
+    },
+    {
+      "id": "8a1e",
+      "movieId": "240",
+      "timeNow": "2024. 6. 22.",
+      "nickName": "김수연",
+      "score": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "reviewTxt": "그냥 그렇습니다."
+    },
+    {
+      "id": "2926",
+      "movieId": "240",
+      "timeNow": "2024. 6. 22.",
+      "nickName": "정태이",
+      "score": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "reviewTxt": "4번째 리뷰입니다."
+    },
+    {
+      "id": "3bfa",
+      "movieId": "240",
+      "timeNow": "2024. 6. 22.",
+      "nickName": "ㅇㅇㅇ",
+      "score": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "reviewTxt": "ㅇㅇㅇ"
+    },
+    {
+      "id": "9afa",
+      "movieId": "346",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "홍길동",
+      "score": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "reviewTxt": "7인의 사무라이 재미없어요"
+    },
+    {
+      "id": "2ac2",
+      "movieId": "94997",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트",
+      "score": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "reviewTxt": "테스트입니다"
+    },
+    {
+      "id": "fa1c",
+      "movieId": "1022789",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트",
+      "score": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "reviewTxt": "너무 재밌어요"
+    },
+    {
+      "id": "2ca4",
+      "movieId": "1022789",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트2",
+      "score": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "reviewTxt": "너무 재밌어요2"
+    },
+    {
+      "id": "bd87",
+      "movieId": "1022789",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트",
+      "score": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "reviewTxt": "새로고침 테스트"
+    },
+    {
+      "id": "5fdc",
+      "movieId": "251309",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트",
+      "score": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "reviewTxt": "테스트 입니다"
+    },
+    {
+      "id": "8540",
+      "movieId": "251309",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트2",
+      "score": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "reviewTxt": "테스트2"
+    },
+    {
+      "id": "97ae",
+      "movieId": "1001311",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트",
+      "score": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "reviewTxt": "테스트입니다"
+    },
+    {
+      "id": "a6d7",
+      "movieId": "954",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트",
+      "score": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "reviewTxt": "테스트입니다"
+    },
+    {
+      "id": "98f6",
+      "movieId": "954",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트 2",
+      "score": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "reviewTxt": "테스트2"
+    },
+    {
+      "id": "be49",
+      "movieId": "954",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트3",
+      "score": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "reviewTxt": "테스트3"
+    },
+    {
+      "id": "a576",
+      "movieId": "954",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트4",
+      "score": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "reviewTxt": "테스트4"
+    },
+    {
+      "id": "57e9",
+      "movieId": "954",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트5",
+      "score": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "reviewTxt": "테스트5"
+    },
+    {
+      "id": "87ad",
+      "movieId": "954",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트6",
+      "score": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "reviewTxt": "테스트6"
+    },
+    {
+      "id": "f1f1",
+      "movieId": "786892",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "밥",
+      "score": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "reviewTxt": "밥"
+    },
+    {
+      "id": "f5c5",
+      "movieId": "786892",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트",
+      "score": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "reviewTxt": "ㅇㅇㅇㅇ"
+    },
+    {
+      "id": "ce96",
+      "movieId": "786892",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "테스트",
+      "score": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "reviewTxt": "라헝알허ㅏㅓㅎ"
+    },
+    {
+      "id": "9598",
+      "movieId": "786892",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "ㅇㄹㅇㄹㅇㄹㅇㄹ",
+      "score": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "reviewTxt": "ㅇㅇㄹㄴㅇㄹㅇ"
+    },
+    {
+      "id": "afd6",
+      "movieId": "786892",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "다시 테스트",
+      "score": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "reviewTxt": "다시 테스트"
+    },
+    {
+      "id": "cec4",
+      "movieId": "974635",
+      "timeNow": "2024. 6. 23.",
+      "nickName": "김수연",
+      "score": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "reviewTxt": "재미있게 봤어요"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "liked": [
+    {
+      "id": "254470"
+    },
+    {
+      "id": "717139"
+    },
+    {
+      "id": "1103"
+    },
+    {
+      "id": "858017"
+    },
+    {
+      "id": "9334"
+    },
+    {
+      "id": "10191"
+    },
+    {
+      "id": "424"
+    },
+    {
+      "id": "573435"
+    },
+    {
+      "id": "9637"
+    },
+    {
+      "id": "719221"
+    }
+  ]
 }
